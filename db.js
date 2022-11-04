@@ -8,7 +8,8 @@ module.exports = {
   livros,
   autores,
   biblias,
-  linguagens
+  linguagens,
+  categorias
 }
 
 
