@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "livro": "História da Reforma",
+      "autor": "Carter Lindberg",
+      "preco": 52.57,
+      "categoria_id": 1
+    },
+    {
+      "id": 2,
+      "livro": "História do Cristianismo",
+      "autor": "Bruce L. Shelley",
+      "preco": 45.90,
+      "categoria_id": 1
+    },
+    {
+      "id": 3,
+      "livro": "Simplesmente Jesus",
+      "autor": "N. T. Wright",
+      "preco": 25.62,
+      "categoria_id": 1
+    },
+    {
+      "id": 4,
+      "livro": "Os outros da Bíblia",
+      "autor": "André Daniel Reinke",
+      "preco": 25.90,
+      "categoria_id": 1
+    },
+    {
+      "id": 5,
+      "nome": "Aqueles da Bíblia",
+      "autor": "André Daniel Reinke",
+      "preco": 29.98,
+      "categoria_id": 1
+    },
+    
+    {
+      "id": 6,
+      "livro": "A história do avivamento Azusa",
+      "autor": "Frank Bartleman",
+      "preco": 14.16,
+      "categoria_id": 1
+    },
+    {
+      "id": 7,
+      "livro": "Mulheres da Bíblia",
+      "autor": "Abraham Kuyper",
+      "preco": 13.90,
+      "categoria_id": 1
+    }
+]

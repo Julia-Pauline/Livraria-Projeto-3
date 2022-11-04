@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "biblia": "Bíblia de estudo da fé reformada",
+        "linguagem": "Almeida Revista e Atualizada | ARA",
+        "preco": 160.46,
+        "categoria_id": 3
+      },
+      {
+        "id": 2,
+        "biblia": "Bíblia de estudo King James",
+        "linguagem": "King James | Atualizada",
+        "preco": 104.90,
+        "categoria_id": 3       
+    },
+    {
+        "id": 3,
+        "biblia": "Bíblia de Estudos Teológicos",
+        "linguagem": "RC - Almeida Revista e Corrigida",
+        "preco": 82.74,
+        "categoria_id": 3        
+    },
+    {
+        "id": 4,
+        "biblia": "Bíblia de Estudo da Reforma",
+        "linguagem": "Almeida Revista e Atualizada - ARA",
+        "preco": 132.93,
+        "categoria_id": 3        
+    }
+]

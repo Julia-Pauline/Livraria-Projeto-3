@@ -1,16 +1,17 @@
-const express = require('express');
+const data = require("./db.js");
 
-const server = express();
+const jsonServer = require("json-server");
+const server = jsonServer.create();
+const router = jsonServer.router(data);
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 3000;
 
-server.use(express.json());
-
-const livros = ['História da Reforma', 'História do Cristianismo' , 'Simplesmente Jesus' , 
-'Os outros da Bíblia' , 'Aqueles da Bíblia' , 'A história do avivamento Azusa' , 
-'Mulheres da Bíblia','Bíblia de estudo da fé reformada' , 'Bíblia de estudo King James']
+server.use(middlewares);
+server.use(router);
 
 
 //Retorna todos livros
-server.get('/livros', (req, res) => {
+server.get('/db', (req, res) => {
     return res.json(livros);
 });
 
@@ -50,4 +51,6 @@ server.delete('/livros/:index', (req, res) => {
 
 
 
-server.listen(3000);
+server.listen(port, () => {
+    console.log(`Server is running in http://localhost:${port}`);
+});
