@@ -2,6 +2,7 @@ const livros = require("./data/livros");
 const autores = require("./data/autores");
 const biblias = require("./data/biblias");
 const linguagens = require("./data/linguagens");
+const categorias = require("./data/categorias");
 
 module.exports = {
   livros,

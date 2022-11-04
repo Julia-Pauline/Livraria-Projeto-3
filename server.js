@@ -11,7 +11,7 @@ server.use(router);
 
 
 //Retorna todos livros
-server.get('/db', (req, res) => {
+server.get('/livros', (req, res) => {
     return res.json(livros);
 });
 
